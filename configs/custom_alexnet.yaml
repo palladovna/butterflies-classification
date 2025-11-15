@@ -1,8 +1,8 @@
 model:
-  name: "vgg16"
+  name: "alexnet_custom"   
   num_classes: 100
-  pretrained: true
-  freeze_backbone: true
+  pretrained: false         
+  freeze_backbone: false    
 
 data:
   train_dir: "C:/Users/MSI/Desktop/project/Butterflies/train"
@@ -13,6 +13,6 @@ training:
   batch_size: 32
   image_size: 224
   num_workers: 0
-  learning_rate: 0.0003
+  learning_rate: 0.0005     
   epochs: 10
-  save_path: "weights/vgg16_best.pth"
+  save_path: "weights/alexnet_custom_best.pth"

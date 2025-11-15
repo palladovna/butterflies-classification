@@ -213,3 +213,8 @@ wandb/
 data/
 __pycache__/
 .ipynb_checkpoints/
+
+
+project/Butterflies/
+
+project/weights/
